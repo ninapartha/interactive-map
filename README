@@ -1,0 +1,55 @@
+# install pip
+sudo apt update
+sudo apt install python3-pip
+
+#install folium
+pip install folium
+
+# install geopandas
+pip install geopandas
+
+# install matplotlib
+pip install matplotlib
+
+# install mpld3
+pip install mpld3
+
+# install hvplot
+pip install hvplot
+
+# folium uses EPSG:4326 (WGS84)
+# https://gis.stackexchange.com/questions/292143/epsg-conversion-and-image-rotation-in-folium
+
+Missing flag for United States of America # FIXED
+Missing flag for Dem. Rep. Congo # FIXED
+Missing flag for Dominican Rep. # FIXED
+Missing flag for Timor-Leste # FIXED
+Missing flag for Central African Rep. # FIXED
+Missing flag for Congo # FIXED
+Missing flag for Eq. Guinea # FIXED
+Missing flag for Gambia # FIXED
+Missing flag for Solomon Is. # FIXED
+Missing flag for Czechia # FIXED
+Missing flag for N. Cyprus # FIXED
+Missing flag for Bosnia and Herz. # FIXED
+Missing flag for S. Sudan # FIXED
+
+Missing flag for W. Sahara
+Missing flag for Falkland Is.
+Missing flag for Greenland
+Missing flag for Fr. S. Antarctic Lands
+Missing flag for Puerto Rico
+Missing flag for Côte d'Ivoire
+Missing flag for eSwatini
+Missing flag for New Caledonia
+Missing flag for Taiwan
+Missing flag for Antarctica
+
+
+Missing url https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Afghanistan.svg
+Missing url https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Macedonia.svg
+
+TODOs:
+fix missing flags, missing urls
+Download flags instead of scraping them
+Fix US and France centroids
